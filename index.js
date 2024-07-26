@@ -11,6 +11,11 @@ const songs = [
     { title: "Come and Get Your Love", artist: "Redbone", genre: "Rock" },
     { title: "I'm Not in Love", artist: "10cc", genre: "Pop" },
     { title: "Fooled Around and Fell in Love", artist: "Elvin Bishop", genre: "Rock" },
+    { title: "Do it well", artist: "DVSN", genre: "R&B"},
+    { title: "Piano man", artist: "Brandy", genre: "R&B"},
+    { title: "Bonga", artist: "Mawhoo", genre: "Amapiano"},
+    { title: "Best thing I never had", artist: "Beyonce", genre: "R&B"},
+    { title: "Blazin", artist: "Nicki & Kanye West", genre: "Hip-Hop"},
     // Feel free to add even more songs
 ];
 
@@ -19,6 +24,9 @@ const songs = [
 const guardians = {
     "Star-Lord": "Rock",
     "Gamora": "Pop",
+    "Drax": "R&B",
+    "Rocket": "Rock",
+    "Groot": "Pop",
     // Add preferences for Drax, Rocket, and Groot
 };
 
