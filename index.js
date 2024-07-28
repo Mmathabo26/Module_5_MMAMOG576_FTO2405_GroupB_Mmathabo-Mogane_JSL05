@@ -34,11 +34,12 @@ const guardians = {
 function generatePlaylist(guardians, songs) {
     // Use the map() function to create playlists for each Guardian
     // Your code here
-    const playlistForEachGuardian = songs.map(guardians => ({
-        title: guardians.title,
-        artist: guardians.artist,
-        genre: guardians.genre, 
-    }))
+    const playlistElement = document.getElementById("playlist");
+    playlistElement.innerHTML = "";
+
+    const playlist = songs.filter(songs => songs.genre);
+
+    preferredGenre = guardians.map(guardians) => 
 }
 
 // Call generatePlaylist and display the playlists for each Guardian
