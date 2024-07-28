@@ -39,7 +39,7 @@ function generatePlaylist(guardians, songs) {
 
     const playlist = songs.filter(songs => songs.genre);
 
-    preferredGenre = guardians.map(guardians) => 
+    preferredGenre = guardians.map(guardians => guardians.name, genre)
 }
 
 // Call generatePlaylist and display the playlists for each Guardian
